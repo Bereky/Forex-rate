@@ -1,0 +1,40 @@
+<!--  -->
+<!-- Exchange rate visualizer using a 'FAKE' REST API -->
+<!-- BY: BEREKET LEMMA -->
+<!--  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foreign Exchange Rate Visualizer</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="fetchData()">
+        <div class="container">
+            <div class="header">
+            <!-- <img src="./align-justify.svg" alt="" srcset=""> -->
+            <h1>Foreign Exchange Rate</h1>
+            </div>
+            <div class="rate">
+                <div class="currency-header">
+                    <div class="currency-name"><h2>Currency</h2></div>
+                    <div class="currency-value"><h2>Value</h2></div>
+                </div>
+                <div id="exchange">
+                    <!-- The data is displayed here -->
+                </div>
+            </div>
+            <footer class="footer">
+                <p>Made by <strong>Bereket Lemma</strong> © 2022 </p>
+            </footer>
+        </div>
+
+<!-- JAVASCRIPT -->
+<script src="main.js"></script>
+
+</body>
+</html>

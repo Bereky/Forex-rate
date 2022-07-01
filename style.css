@@ -1,0 +1,84 @@
+.body{
+  margin: 0;
+  padding: 0;
+} 
+
+h4{
+  margin: 15px;
+}
+
+img{
+  width: 10px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family:cursive;
+  margin: 0;
+
+}
+
+.header{
+  text-align: center;
+  color: aliceblue;
+  box-shadow: 0px 1px 50px rgb(97, 97, 97);
+  background-color: rgb(238,119,119);
+}
+
+.rate{
+  color: rgb(238,119,119);
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+  box-shadow: 0px 5px 30px rgb(144, 144, 144);
+  transition: .5s;
+}
+
+.rate:hover{
+  box-shadow: 0px 5px 5px grey;
+  transition: .5s;
+}
+
+.currency-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  box-shadow: 0px 1px 5px grey;
+  margin-bottom: 15px;
+}
+.currency-name{
+  flex: 1;
+  padding: 0px 0 0px 30px;
+}
+
+.currency-value{
+  padding: 0px 60px 0px 0;
+}
+
+.exchange {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.currency {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.in-etb{
+  padding-right: 20px;
+}
+
+.footer{
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+}
