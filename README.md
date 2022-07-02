@@ -1,2 +1,2 @@
 # Forex-rate
-Foreign Exchange rate with FAKE API
+Foreign Exchange rate display with FAKE API
